@@ -1,199 +1,100 @@
 # Mikhail Krakhotin
+[English](README.md) | [Русский](README_RU.md)
+### Robotics Software Engineer | Machine Learning Engineer | Computer Vision Engineer
 
-### Machine Learning Engineer · Robotics Software Engineer · Computer Vision Engineer
+I am an engineering student and developer interested in robotics, computer vision, machine learning, and intelligent autonomous systems. My work combines software development, AI, robotic control, and practical engineering.
 
----
-
-## About Me
-
-I am a **Machine Learning and Robotics Engineer** with a background in **Control Systems Engineering**.
-
-My main areas of interest are **robotics, computer vision, machine learning, large language models, and intelligent autonomous systems**.
-
-I mainly work with **Python and C++** and have experience developing robotic systems with **ROS 2**, building computer vision pipelines, training and integrating LLMs, and developing backend applications.
-
-I enjoy working on complex engineering problems where **software, AI, and physical systems** come together.
+My main areas of focus are **Python, C++, ROS 2, computer vision, LLMs, and backend development**.
 
 ---
 
-## Experience
+## Featured Projects
 
-### Robotics Software Engineer — FeBot
+### 1. Robotic Welding System — Rebar Detection and Manipulation
 
-**April 2024 – May 2026**
+A robotics project focused on automating operations involving reinforcement bars using computer vision and robotic manipulation.
 
-Worked on the development of a **mobile robotic platform with a manipulator and intelligent control systems**.
+The system combines camera-based perception, image processing, and ROS 2 to detect reinforcement bars and extract geometric information for further robotic operations.
 
-My responsibilities included:
+**Key components:**
+- Computer vision for reinforcement bar detection.
+- DeepLabV3Plus-based image segmentation.
+- Skeletonization and RANSAC for geometric processing.
+- Integration with ROS 2 and Gazebo.
+- Work with robotic motion planning and manipulation.
 
-* Developing robotic software using **Python, C++ and ROS 2**
-* Developing control systems for a mobile robotic platform and manipulator
-* Training and integrating **LLaMA 3.1 8B** for natural-language robot control
-* Converting high-level commands into sequences of robotic actions
-* Developing computer vision algorithms using **OpenCV**
-* Object detection, segmentation and recognition
-* Implementing obstacle avoidance and road-following algorithms
-* Working with **URDF, Gazebo and RViz**
-* Integrating software between simulation and real robotic hardware
-* Optimizing robotic models and control pipelines
-* Developing systems for object detection and manipulation
+**Technologies:** Python, C++, ROS 2 Jazzy, Gazebo Harmonic, OpenCV, DeepLabV3Plus, RANSAC, Intel RealSense D435, MoveIt 2.
 
 <p align="center">
-  <img src="gif/arm_simulation.gif" width="800">
+  <img src="gif/Detection_bar.gif" width="800" alt="Reinforcement bar detection">
 </p>
 
-[**→ More about FeBot**](projects/)
+<p align="center">
+  <img src="gif/points_bar_test.gif" width="48%" alt="Reinforcement bar point detection">
+  <img src="gif/points_bar_test_2.gif" width="48%" alt="Reinforcement bar detection results">
+</p>
 
 ---
 
-### Robotics & Computer Vision
+### 2. FeBot — Mobile Robotic Platform with a Manipulator
 
-I have worked on several robotics projects involving **computer vision, autonomous systems, robotic manipulation and motion planning**.
+A robotic platform project combining mobile robot control, manipulator integration, computer vision, and large language models.
 
-One of the main projects is a **6-DOF robotic system for automated welding of reinforcement structures**.
+One of the main objectives was to enable a robot to interpret natural-language commands and convert them into sequences of actions. For example, a command such as *"Bring me an apple"* can be decomposed into steps such as locating the object, navigating to it, picking it up, and returning.
 
-The system combines RGB/depth cameras, computer vision, ROS 2 and robotic motion planning to detect reinforcement bars and provide the information required for robotic manipulation.
+**My work included:**
+- Developing robotic software and integrating ROS 2 components.
+- Working with a mobile platform and a robotic manipulator.
+- Training and integrating LLaMA 3.1 8B for natural-language command decomposition.
+- Developing computer vision functionality with OpenCV.
+- Working with simulation, robot models, and hardware integration.
+- Implementing and testing robot navigation and manipulation workflows.
 
-#### Technologies
+**Technologies:** Python, C++, ROS 2, LLaMA 3.1 8B, OpenCV, Gazebo, RViz, URDF, Linux, Docker.
 
-* **ROS 2 Jazzy**
-* **Gazebo Harmonic**
-* **Intel RealSense D435**
-* **DeepLabV3Plus**
-* **Skeletonization**
-* **RANSAC**
-* **MoveIt 2**
-* **OpenCV**
-* **Python**
-* **C++**
+<p align="center">
+  <img src="images/FeBot01.png" width="800" alt="FeBot robotic platform">
+</p>
 
-[**→ More about Arctos Rebar-Cross**](projects/)
-
----
-
-### AI & Backend Development
-
-I also develop **AI-powered backend applications** using modern Python technologies.
-
-One of my projects is an **AI-powered cybersecurity digest** that collects security publications, removes duplicates, analyzes articles using an LLM, determines relevance and importance, and generates structured reports.
-
-#### Technologies
-
-* **Python**
-* **FastAPI**
-* **asyncio**
-* **Pydantic**
-* **SQLAlchemy**
-* **PostgreSQL**
-* **Alembic**
-* **Docker**
-* **RabbitMQ**
-* **Redis**
-* **LLM APIs**
-
-[**→ More about IT Security Digest**](projects/)
+<p align="center">
+  <img src="gif/arm_simulation.gif" width="800" alt="Robotic manipulator simulation">
+</p>
 
 ---
 
-## Education
+### 3. IT Security Digest — AI-Powered Cybersecurity News Aggregator
 
-### Saint Petersburg Electrotechnical University "LETI"
+A web application designed to collect cybersecurity news, analyze articles using a large language model, and generate structured digests.
 
-**B.Sc. in Control Systems Engineering**
+The system collects publications from security-related sources, processes and filters articles, and uses an LLM to summarize content and assess its relevance and importance. The results can be organized into readable reports.
 
-Currently pursuing a **Master's degree** in a related engineering field.
+**Key features:**
+- Collecting cybersecurity articles from external sources.
+- Article processing and duplicate handling.
+- LLM-based analysis, classification, and summarization.
+- Asynchronous backend operations.
+- PostgreSQL database integration.
+- Generating structured digests in Markdown and DOCX formats.
 
-My academic background combines:
+**Technologies:** Python, FastAPI, asyncio, SQLAlchemy, PostgreSQL, Alembic, Pydantic, Docker, GigaChat API.
 
-* Control systems
-* Robotics
-* Programming
-* Computer vision
-* Machine learning
-* Automation
+<p align="center">
+  <img src="gif/it-digest.gif" width="800" alt="IT Security Digest demonstration">
+</p>
 
 ---
 
 ## Technical Skills
 
-### Programming
-
-`Python` · `C++` · `SQL`
-
-### Machine Learning & AI
-
-`LLaMA` · `Hugging Face Transformers` · `TensorFlow` · `scikit-learn`
-
-### Computer Vision
-
-`OpenCV` · `DeepLabV3Plus` · `Object Detection` · `Image Segmentation` · `Image Processing`
-
-### Robotics
-
-`ROS 2` · `Gazebo` · `RViz2` · `MoveIt 2` · `URDF` · `SLAM` · `Robotic Manipulation`
-
-### Backend
-
-`FastAPI` · `Pydantic` · `SQLAlchemy` · `asyncio` · `PostgreSQL` · `REST APIs`
-
-### Infrastructure & Tools
-
-`Linux` · `Docker` · `Git`
-
-### Data
-
-`NumPy` · `Pandas` · `PySpark`
+- **Programming:** Python, C++, SQL
+- **Robotics:** ROS 2, Gazebo, RViz, URDF, MoveIt 2
+- **Computer Vision:** OpenCV, image segmentation, object detection, image processing
+- **Machine Learning & LLMs:** LLaMA, Hugging Face Transformers, TensorFlow, scikit-learn
+- **Backend Development:** FastAPI, asyncio, Pydantic, SQLAlchemy, REST APIs
+- **Databases & Infrastructure:** PostgreSQL, Docker, Linux, Git
 
 ---
 
-## Projects
-
-### FeBot
-
-Mobile robotic platform with a manipulator and LLM-based natural-language control.
-
-[**→ Project details**](projects/)
-
-### Arctos Rebar-Cross
-
-Computer vision and ROS 2 pipeline for reinforcement bar detection and robotic manipulation.
-
-[**→ Project details**](projects/)
-
-### IT Security Digest
-
-AI-powered system for collecting, analyzing and summarizing cybersecurity publications.
-
-[**→ Project details**](projects/)
-
-### Robotic Greenhouse Harvester
-
-ROS 2-based robotic system for detecting and harvesting greenhouse crops.
-
-[**→ Project details**](projects/)
-
-### Visual Novel
-
-An original **Godot-based visual novel** with interactive storytelling and local two-player mechanics.
-
-[**→ Project details**](projects/)
-
----
-
-## Interests
-
-* Robotics and autonomous systems
-* Machine Learning
-* Computer Vision
-* Large Language Models
-* AI Agents
-* Human-Robot Interaction
-* Robotic Manipulation
-* Software Engineering
-
----
-
-## Contact
-
-Feel free to contact me if you are interested in **robotics, machine learning, computer vision, AI or software engineering**.
-
+<p align="center">
+  <i>Building intelligent systems where software meets the physical world.</i>
+</p>
